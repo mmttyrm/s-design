@@ -16,6 +16,19 @@
     border: 1px solid transparent;
 
 }
+.outline {
+    border-color: var(--primary);
+    color: var(--primary);
+    &:hover {
+        background-color: var(--primary);
+        color: var(--white);
+    }
+}
+
+
+.mobile {
+    background-color: red;
+}
 
 .title{
     font-family: "Rubik", sans-serif;
